@@ -1,0 +1,36 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 50px;
+    width: 100%;
+    padding: 5px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(90deg,#c02d28,#e66225);
+  }
+  .logo__name {
+    color: #fff;
+    font-size: 24px;
+  }
+  .btn {
+    cursor: pointer;
+    background: #c02d28;
+    border: 3px solid transparent;
+    border-radius: 40px;
+    color: #fff;
+    display: block;
+    line-height: 1.25;
+    padding: 10px 20px;
+    text-align: center;
+    transition: .5s;
+  }
+  
+  .btn:hover {
+    border-color: #c2c2c2;
+    background-color: transparent;
+  }
+  .btn:active {
+    border-color: #222;
+  }
